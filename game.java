@@ -17,6 +17,13 @@ class game{
 	    }
 	}
 	System.out.printf("Heads: %d, Tails: %d\n",heads,tails);
+	if(heads>tails){
+	    System.out.printf("You win\n");
+	}
+	else{
+	    System.out.printf("You lose\n");
+	}
+	    
     }
 }
 	    
