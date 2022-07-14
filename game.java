@@ -5,7 +5,7 @@ class game{
 	int tails=0;
 	System.out.printf("Tossing a coin...\n");
 	Random rnd = new Random();
-	for(int i=0;i<5;i++){
+	for(int i=1;i<=3;i++){
 	    int value=rnd.nextInt(2);
 	    if(value==0){
 		System.out.printf("Round %d:heads\n",i);
