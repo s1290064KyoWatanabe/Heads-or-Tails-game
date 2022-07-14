@@ -24,10 +24,10 @@ class game{
 	}
 	System.out.printf("Heads: %d, Tails: %d\n",heads,tails);
 	if(heads>tails){
-	    System.out.printf("You win\n");
+	    System.out.printf("%s win\n",name);
 	}
 	else{
-	    System.out.printf("You lose\n");
+	    System.out.printf("%s lose\n",name);
 	}
 	    
     }
