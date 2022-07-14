@@ -1,6 +1,12 @@
 import java.util.Random;
+import java.util.Scanner;
 class game{
     public static void main(String[] args){
+	String name;
+	System.out.printf("who are you ?\n");
+	Scanner sc= new Scanner(System.in);
+	name=sc.next();
+	System.out.printf("Hello, %s!\n",name);
 	int heads=0;
 	int tails=0;
 	System.out.printf("Tossing a coin...\n");
